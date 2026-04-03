@@ -1,5 +1,5 @@
 {
-  "name": "@redeye/config",
+  "name": "@redeyedevelopment/config",
   "version": "1.0.0",
   "description": "Shared ESLint and TypeScript config for RedEye apps",
   "main": "index.js",

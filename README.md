@@ -5,12 +5,12 @@ Shared ESLint and TypeScript config for RedEye apps.
 ## Install
 
 ```bash
-npm install --save-dev @redeye/config
+npm install --save-dev @redeyedevelopment/config
 ```
 
 Add to `.npmrc` in your project:
 ```
-@redeye:registry=https://npm.pkg.github.com
+@redeyedevelopment:registry=https://npm.pkg.github.com
 ```
 
 ## Usage
@@ -18,20 +18,20 @@ Add to `.npmrc` in your project:
 ### TypeScript (`tsconfig.json`)
 ```json
 {
-  "extends": "@redeye/config/tsconfig"
+  "extends": "@redeyedevelopment/config/tsconfig"
 }
 ```
 
 For Next.js apps:
 ```json
 {
-  "extends": "@redeye/config/tsconfig/next"
+  "extends": "@redeyedevelopment/config/tsconfig/next"
 }
 ```
 
 ### ESLint (`eslint.config.mjs`)
 ```js
-import redeyeConfig from '@redeye/config/eslint';
+import redeyeConfig from '@redeyedevelopment/config/eslint';
 
 export default [
   ...redeyeConfig,
