@@ -1,0 +1,32 @@
+{
+  "name": "@redeye/config",
+  "version": "1.0.0",
+  "description": "Shared ESLint and TypeScript config for RedEye apps",
+  "main": "index.js",
+  "exports": {
+    "./eslint": "./eslint.js",
+    "./tsconfig": "./tsconfig.json",
+    "./tsconfig/next": "./tsconfig.next.json"
+  },
+  "files": [
+    "eslint.js",
+    "index.js",
+    "tsconfig.json",
+    "tsconfig.next.json"
+  ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RedEyeDevelopment/config.git"
+  },
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^8",
+    "@typescript-eslint/parser": "^8",
+    "eslint": "^9",
+    "eslint-config-next": ">=15",
+    "typescript": "^5"
+  },
+  "license": "MIT"
+}
